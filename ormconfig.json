@@ -1,0 +1,17 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "database": "brewpi_server",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "app/entity/**/*.ts"
+   ],
+   "migrations": [
+      "app/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "app/subscriber/**/*.ts"
+   ]
+}
